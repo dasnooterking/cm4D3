@@ -8,6 +8,10 @@
            fetch="git://github.com/" 
            review="review.cyanogenmod.com" />
 
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/"
+           review="review.omapzoom.org" />
+
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
@@ -238,6 +242,8 @@
 
   <project path="android" name="CyanogenMod/android" />
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="ics" />
+  <project path="hardware/ti/omap4xxx/syslink" name="Hashcode/android_hardware_ti_syslink" remote="github" revision="gingerbread" />
+  <project path="hardware/ti/omap4xxx/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="memmgr_1.0" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" remote="github" revision="ics" />
 </manifest>
