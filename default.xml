@@ -206,6 +206,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" revision="refs/heads/gingerbread" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -246,7 +247,7 @@
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
   <project path="hardware/libhardware" name="dhacker29/android_hardware_libhardware" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="refs/heads/ics-mr0" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="refs/heads/gingerbread" />
   <project path="system/core" name="Hashcode/android_system_core" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
 </manifest>
