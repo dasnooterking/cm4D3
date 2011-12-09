@@ -164,7 +164,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
@@ -243,11 +242,12 @@
   <project path="android" name="CyanogenMod/android" />
 
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
-  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd"  revision="refs/heads/gingerbread" />
+  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
   <project path="hardware/libhardware" name="dhacker29/android_hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="Hashcode/android_hardware_libhardware_legacy" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="refs/heads/ics-mr0" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
   <project path="system/core" name="Hashcode/android_system_core" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
 </manifest>
