@@ -245,6 +245,7 @@
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" />
@@ -305,9 +306,10 @@
 
   <project path="android" name="CyanogenMod/android" />
 
-  <project path="bootable/recovery" name="Hashcode/android_bootable_recovery" remote="github" revision="gingerbread" />
+  <project path="bootable/recovery" name="Hashcode/android_bootable_recovery" remote="github" revision="gingerbread-safestrap" />
   <project path="device/motorola/common" name="Hashcode/android_device_motorola_common" remote="github" revision="gingerbread" />
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="gingerbread" />
+  <project path="device/motorola/spyder" name="Hashcode/android_device_motorola_spyder" remote="github" revision="gingerbread" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="gingerbread" />
   <project path="hardware/ti/omap3" name="Hashcode/android_hardware_ti_omap3" remote="github" revision="gingerbread" />
   <project path="hardware/ti/omx" name="Hashcode/android_hardware_ti_omx" remote="github" revision="gingerbread" />
@@ -318,4 +320,5 @@
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="gingerbread" />
   <project path="vendor/cyanogen" name="Hashcode/android_vendor_cyanogen" remote="github" revision="gingerbread" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" remote="github" revision="gingerbread" />
+  <project path="vendor/motorola/spyder" name="Hashcode/android_vendor_motorola_spyder" remote="github" revision="gingerbread" />
 </manifest>
