@@ -177,7 +177,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <!-- <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" /> -->
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" /> 
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -208,7 +208,7 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <!-- <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" /> -->
-  <project path="packages/apps/Launcher2" name="nebkat/android_packages_apps_Launcher2" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
@@ -260,10 +260,11 @@
 
   <project path="android" name="CyanogenMod/android" />
 
-  <project path="device/amazon/otter" name="KFire-Android/android_device_amazon_otter" />
+  <project path="device/amazon/otter" name="KFire-Android/device-amazon-otter" />
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
   <project path="device/motorola/spyder" name="Hashcode/android_device_motorola_spyder" />
-  <project path="device/motorola/targa" name="Hashcode/android_device_motorola_targa" />
+<!--  <project path="device/motorola/targa" name="Hashcode/android_device_motorola_targa" /> -->
+  <project path="device/ti/proprietary-open" name="platform/device/ti/proprietary-open" remote="omapzoom" revision="refs/heads/ics-mr1" />
   <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" />
@@ -271,8 +272,10 @@
   <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
   <project path="system/core" name="Hashcode/android_system_core" />
   <project path="vendor/amazon/otter" name="KFire-Android/android_vendor_amazon_otter" />
+  <project path="vendor/google" name="ICSTH3ORY/proprietary_vendor_google" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
   <project path="vendor/motorola/spyder" name="Hashcode/android_vendor_motorola_spyder" />
-  <project path="vendor/motorola/targa" name="Hashcode/android_vendor_motorola_targa" />
+  <project path="vendor/ti/common-open" name="platform/vendor/ti/common-open" remote="omapzoom" revision="refs/heads/ics-mr1" />
+<!--  <project path="vendor/motorola/targa" name="Hashcode/android_vendor_motorola_targa" /> -->
 </manifest>
 
