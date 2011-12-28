@@ -260,9 +260,9 @@
 
   <project path="android" name="CyanogenMod/android" />
 
-  <project path="device/amazon/otter" name="KFire-Android/device-amazon-otter" />
+  <!--<project path="device/amazon/otter" name="KFire-Android/device-amazon-otter" />-->
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
-  <project path="device/motorola/spyder" name="Hashcode/android_device_motorola_spyder" />
+  <!--<project path="device/motorola/spyder" name="Hashcode/android_device_motorola_spyder" />-->
 <!--  <project path="device/motorola/targa" name="Hashcode/android_device_motorola_targa" /> -->
   <project path="device/ti/proprietary-open" name="platform/device/ti/proprietary-open" remote="omapzoom" revision="refs/heads/ics-mr1" />
   <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
@@ -271,11 +271,12 @@
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
   <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
   <project path="system/core" name="Hashcode/android_system_core" />
-  <project path="vendor/amazon/otter" name="KFire-Android/android_vendor_amazon_otter" />
+  <!--<project path="vendor/amazon/otter" name="KFire-Android/android_vendor_amazon_otter" />-->
   <project path="vendor/google" name="ICSTH3ORY/proprietary_vendor_google" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
-  <project path="vendor/motorola/spyder" name="Hashcode/android_vendor_motorola_spyder" />
+  <!--<project path="vendor/motorola/spyder" name="Hashcode/android_vendor_motorola_spyder" />-->
   <project path="vendor/ti/common-open" name="platform/vendor/ti/common-open" remote="omapzoom" revision="refs/heads/ics-mr1" />
 <!--  <project path="vendor/motorola/targa" name="Hashcode/android_vendor_motorola_targa" /> -->
+  <prject path="device/motorola/sholes" name ="dasnooteking/android_device_motorola_sholes" />
 </manifest>
 
